@@ -1,7 +1,8 @@
   Variables descriptions:
 
   > names(measurements) #or even View(measurements)
-  [1] "Subject"                                                  
+  
+   [1] "Subject"                                                  
    [2] "Activity"                                                 
    [3] "TimeBodyAccelerate-Mean()-X"                              
    [4] "TimeBodyAccelerate-Mean()-Y"                              
@@ -91,37 +92,39 @@
                        they are the mean/sd/MeanFrequency for TimeBodyGyroscope or their Accelerate. (the movements of different vectors in all three directions of x, y, z )
 
   Here is an short example of the final mean output of the means of different variables:
+  
   #code of this command: tidydata[1:10, 1:10]
-  Subject           Activity TimeBodyAccelerate-Mean()-X TimeBodyAccelerate-Mean()-Y TimeBodyAccelerate-Mean()-Z
-1        1             LAYING                   0.2725749                -0.016317753                  -0.1071601
-2        1            SITTING                   0.2768757                -0.014522052                  -0.1044127
-3        1           STANDING                   0.2789713                -0.017625065                  -0.1076845
-4        1            WALKING                   0.2760236                -0.020428693                  -0.1088040
-5        1 WALKING_DOWNSTAIRS                   0.2955868                -0.018389858                  -0.1198737
-6        1   WALKING_UPSTAIRS                   0.2559861                -0.014365495                  -0.1240745
-7        2             LAYING                   0.2215982                -0.040513953                  -0.1132036
-8        2            SITTING                   0.2612376                -0.001308288                  -0.1045442
-9        2           STANDING                   0.2789176                -0.016137590                  -0.1106018
-10       2            WALKING                   0.2773308                -0.017383819                  -0.1111481
-TimeBodyAccelerate-Std()-X TimeBodyAccelerate-Std()-Y TimeBodyAccelerate-Std()-Z TimeGravityAccelerate-Mean()-X
-1                  -0.9719894                 -0.9455760                -0.96676760                     -0.2256037
-2                  -0.9940835                 -0.9751170                -0.97615553                      0.9380226
-3                  -0.9911067                 -0.9601463                -0.96327443                      0.9238775
-4                  -0.4046925                 -0.3145698                -0.15979979                      0.9259813
-5                   0.2072520                 -0.1469938                 0.01143539                      0.9178184
-6                  -0.3970838                 -0.1637327                -0.12928383                      0.8268743
-7                  -0.9280565                 -0.8368274                -0.82606140                     -0.2488818
-8                  -0.9772290                 -0.9226186                -0.93958629                      0.8315099
-9                  -0.9957599                 -0.9731901                -0.97977588                      0.9429520
-10                 -0.2837403                  0.1144613                -0.26002790                      0.9352232
-TimeGravityAccelerate-Mean()-Y
-1                     -0.08579424
-2                     -0.07857364
-3                     -0.06909431
-4                     -0.06682465
-5                     -0.05848327
-6                     -0.08059260
-7                      0.70554977
-8                      0.20441159
-9                     -0.27298383
-10                    -0.28216502                     
+  
+         Subject           Activity TimeBodyAccelerate-Mean()-X TimeBodyAccelerate-Mean()-Y TimeBodyAccelerate-Mean()-Z
+    1        1             LAYING                   0.2725749                -0.016317753                  -0.1071601
+    2        1            SITTING                   0.2768757                -0.014522052                  -0.1044127
+    3        1           STANDING                   0.2789713                -0.017625065                  -0.1076845
+    4        1            WALKING                   0.2760236                -0.020428693                  -0.1088040
+    5        1 WALKING_DOWNSTAIRS                   0.2955868                -0.018389858                  -0.1198737
+    6        1   WALKING_UPSTAIRS                   0.2559861                -0.014365495                  -0.1240745
+    7        2             LAYING                   0.2215982                -0.040513953                  -0.1132036
+    8        2            SITTING                   0.2612376                -0.001308288                  -0.1045442
+    9        2           STANDING                   0.2789176                -0.016137590                  -0.1106018
+    10       2            WALKING                   0.2773308                -0.017383819                  -0.1111481
+         TimeBodyAccelerate-Std()-X TimeBodyAccelerate-Std()-Y TimeBodyAccelerate-Std()-Z TimeGravityAccelerate-Mean()-X
+    1                  -0.9719894                 -0.9455760                -0.96676760                     -0.2256037
+    2                  -0.9940835                 -0.9751170                -0.97615553                      0.9380226
+    3                  -0.9911067                 -0.9601463                -0.96327443                      0.9238775
+    4                  -0.4046925                 -0.3145698                -0.15979979                      0.9259813
+    5                   0.2072520                 -0.1469938                 0.01143539                      0.9178184
+    6                  -0.3970838                 -0.1637327                -0.12928383                      0.8268743
+    7                  -0.9280565                 -0.8368274                -0.82606140                     -0.2488818
+    8                  -0.9772290                 -0.9226186                -0.93958629                      0.8315099
+    9                  -0.9957599                 -0.9731901                -0.97977588                      0.9429520
+    10                 -0.2837403                  0.1144613                -0.26002790                      0.9352232
+         TimeGravityAccelerate-Mean()-Y
+    1                     -0.08579424
+    2                     -0.07857364
+    3                     -0.06909431
+    4                     -0.06682465
+    5                     -0.05848327
+    6                     -0.08059260
+    7                      0.70554977
+    8                      0.20441159
+    9                     -0.27298383
+    10                    -0.28216502
